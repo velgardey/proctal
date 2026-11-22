@@ -1,0 +1,14 @@
+.tools/
+.cache/
+.data/
+work/
+dist/
+**/bin/
+**/obj/
+TestResults/
+*.user
+*.pfx
+.env
+.env.*
+*.key
+*.pem

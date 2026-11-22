@@ -1,0 +1,27 @@
+[
+  {
+    "file": "IBMPlexSans-Regular.ttf",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-sans/fonts/complete/ttf/IBMPlexSans-Regular.ttf",
+    "githubBlobSha": "bd6817d5202895da5ac4fad88de3da71e652881a"
+  },
+  {
+    "file": "IBMPlexSans-Medium.ttf",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-sans/fonts/complete/ttf/IBMPlexSans-Medium.ttf",
+    "githubBlobSha": "a3826c4e9ab3f2d6e64e0c9aea7122ea3431e174"
+  },
+  {
+    "file": "IBMPlexSans-SemiBold.ttf",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-sans/fonts/complete/ttf/IBMPlexSans-SemiBold.ttf",
+    "githubBlobSha": "09ec8cdae8208c26165db0c87da409cda8c26ae4"
+  },
+  {
+    "file": "IBMPlexSans-Italic.ttf",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-sans/fonts/complete/ttf/IBMPlexSans-Italic.ttf",
+    "githubBlobSha": "efe8a1fb9de848891cd6e7d70280e1f47019c0ca"
+  },
+  {
+    "file": "IBMPlexMono-Regular.ttf",
+    "source": "https://github.com/IBM/plex/blob/master/packages/plex-mono/fonts/complete/ttf/IBMPlexMono-Regular.ttf",
+    "githubBlobSha": "4254c37f20ba57e829a3315fdc91cda4e63589f5"
+  }
+]

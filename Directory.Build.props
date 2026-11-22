@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <Deterministic>true</Deterministic>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TargetPlatformMoniker>Windows,Version=10.0.19041.0</TargetPlatformMoniker>
+    <TargetPlatformDisplayName>Windows</TargetPlatformDisplayName>
+    <TargetPlatformSdkPath Condition="Exists('$(MSBuildThisFileDirectory).tools\windows-sdk\')">$(MSBuildThisFileDirectory).tools\windows-sdk\</TargetPlatformSdkPath>
+    <UseOSWinMdReferences>false</UseOSWinMdReferences>
+  </PropertyGroup>
+</Project>
