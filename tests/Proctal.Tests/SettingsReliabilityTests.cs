@@ -37,9 +37,11 @@ public sealed class SettingsReliabilityTests
     }
     [Fact] public Task SelectedAudioDevicesNotifyEveryView()=>ControllerTests.OnDispatcher(controller=>
     {
+        controller.SelectedOutput=new AudioDevice("test-output","Synthetic output");controller.SelectedInput=new AudioDevice("test-input","Synthetic input");
         var changed=new List<string>();controller.PropertyChanged+=(_,e)=>changed.Add(e.PropertyName!);
         controller.SelectedOutput=null;controller.SelectedInput=null;
         Assert.Contains(nameof(controller.SelectedOutput),changed);Assert.Contains(nameof(controller.SelectedInput),changed);
+        changed.Clear();controller.SelectedOutput=null;controller.SelectedInput=null;Assert.Empty(changed);
         return Task.CompletedTask;
     });
 }
